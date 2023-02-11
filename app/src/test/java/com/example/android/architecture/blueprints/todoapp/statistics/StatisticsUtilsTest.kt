@@ -35,10 +35,9 @@ class StatisticsUtilsTest {
     }
 
     @Test
-    fun getActiveAndCompletedStats_twoCompletedThreeActive_returnsForteSixte() {
+    fun getActiveAndCompletedStats_twoCompletedThreeActive_returnsFortySixty() {
         // Arrange. Create an active task
         val tasks = listOf(
-            Task("title", "desc", isCompleted = true),
             Task("title", "desc", isCompleted = true),
             Task("title", "desc", isCompleted = true),
             Task("title", "desc", isCompleted = false),
