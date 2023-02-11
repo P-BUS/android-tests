@@ -16,6 +16,7 @@
 
 package com.example.android.architecture.blueprints.todoapp.statistics
 
+import android.annotation.SuppressLint
 import android.app.Application
 import androidx.lifecycle.*
 import com.example.android.architecture.blueprints.todoapp.data.Result
